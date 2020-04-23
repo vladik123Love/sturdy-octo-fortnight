@@ -1,7 +1,7 @@
 const ROOT_HOME = '#content'
 
 window._router = {
-    baseHASH: 'https://cdn.jsdelivr.net/gh/vladik123Love/sturdy-octo-fortnight/',
+    baseHASH: 'https://cdn.jsdelivr.net/gh/vladik123Love/sturdy-octo-fortnight@latest/',
     // baseHASH: './js/',
     routes: {},
     routesLoading: [],
