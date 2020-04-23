@@ -3,6 +3,7 @@ const page = { "tagName": "DIV", "attributes": [{ "name": "id", "value": "lp" }]
 const PAGE_NAME = 'landing';
 
 (() => {
+    console.log(window)
     window._router.bind(page, PAGE_NAME);
     window._router.goto(PAGE_NAME);
 })();
